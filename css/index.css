@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap");
+body {
+  /* background: rgb(175, 217, 193); */
+  margin-top: 30px;
+}
+
+.sheet {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+table {
+  width: 100%;
+  margin-top: 30px;
+}
+.buttons {
+  background: aquamarine;
+  height: 50px;
+  text-align: center;
+}
+
+tr td {
+  width: 25%;
+}
+
+.knopka {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 15px 50px;
+}
+
+.knopka:hover {
+  color: blue;
+}
+.text1 {
+  font-size: 30px;
+  text-align: justify;
+  word-spacing: 8px;
+  font-family: "Caveat", cursive;
+}
+.block-about {
+  font-family: "Caveat", cursive;
+  font-size: 55px;
+  text-align: center;
+}
+.block-facts {
+  font-family: "Amatic SC", cursive;
+  font-size: 55px;
+  text-align: center;
+}
+
+.text2 {
+  font-size: 30px;
+  text-align: justify;
+  word-spacing: 8px;
+  font-family: "Amatic SC", cursive;
+}
+li:hover {
+  text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+}
+.knopka:hover {
+  text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+}
+.icon {
+  transition: 1s;
+  margin: 20px;
+}
+.icon:hover {
+  transform: scale(1.4);
+}
+.photo:hover {
+  border: 1px solid red;
+}
